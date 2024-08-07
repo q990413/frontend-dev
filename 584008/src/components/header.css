@@ -1,0 +1,46 @@
+/* Header.css */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-and-links {
+  align-self: flex-start; /* Aligns to the start (top) of the flex container */
+}
+
+.title-and-links nav ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.title-and-links nav li {
+  margin-right: 10px; /* Adjust spacing between tabs */
+}
+
+.title-and-links nav li:last-child {
+  margin-right: 0; /* Remove margin from the last tab */
+}
+
+.title-and-links nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Adjust link color */
+  padding: 8px 12px; /* Adjust padding for better appearance */
+  border: 1px solid #ccc; /* Add border to tabs */
+  border-radius: 4px; /* Add border radius for rounded corners */
+}
+
+.title-and-links nav a:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.logo-container {
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.logo-image {
+  width: 900px; /* Adjust as needed */
+  height: auto;
+}
